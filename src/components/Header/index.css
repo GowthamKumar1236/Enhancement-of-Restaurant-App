@@ -1,0 +1,151 @@
+.nav-header {
+  box-shadow: 0px 10px 10px -15px #111;
+  display: flex;
+  justify-content: space-between;
+}
+
+.nav-header a {
+  text-decoration: none;
+}
+
+.logo-heading {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 25px;
+  color: #1f1f1f;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-heading {
+    font-size: 25px;
+  }
+}
+
+.alignment {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin-right: 50px;
+}
+
+.my-orders-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #585555;
+  text-decoration: none;
+}
+
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-icon-button {
+  border: none;
+  outline: none;
+  background-color: transparent;
+  padding: 0;
+}
+
+.cart-icon {
+  font-size: 35px;
+  color: #585555;
+}
+
+.cart-count-badge {
+  background-color: #ff6347;
+  position: absolute;
+  top: -13px;
+  right: -8px;
+  height: 25px;
+  min-width: 25px;
+  border-radius: 50%;
+  display: grid;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
+.cart-count {
+  text-align: center;
+  color: #ffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 12px;
+  margin: 0;
+}
+
+.nav-header {
+  box-shadow: 0px 10px 10px -15px #111111;
+}
+
+.logo-heading {
+  font-family: 'Roboto';
+  font-weight: 600;
+  font-size: 35px;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 576px) {
+  .logo-heading {
+    font-size: 25px;
+  }
+}
+
+.alignment {
+  display: flex;
+}
+
+.my-orders-text {
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 18px;
+  color: #585555;
+}
+
+.cart-icon-container {
+  position: relative;
+}
+
+.cart-icon {
+  font-size: 30px;
+  color: rgb(83, 80, 80);
+  height: 30px;
+  width: 30px;
+  cursor: pointer;
+  outline: none;
+}
+@media screen and (max-width: 768px) {
+  .cart-icon {
+    font-size: 35px;
+  }
+}
+
+.cart-count-badge {
+  position: absolute;
+  top: -15px;
+  right: -5px;
+}
+
+.cart-count {
+  text-align: center;
+  background-color: #ff6347;
+  padding: 4px 2px 2px;
+  color: #ffffff;
+  font-family: 'Roboto';
+  font-weight: 500;
+  font-size: 14px;
+  min-width: 25px;
+  border-radius: 50%;
+}
+
+.button {
+  padding: 5px;
+  background-color: transparent;
+  border: none;
+  outline: none;
+  cursor: pointer;
+  color: #ffffff;
+  font-weight: 600;
+  font-size: 18px;
+}
